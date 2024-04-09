@@ -12,8 +12,8 @@ export default {
 
 export const Basic: Story = (args) => <Main {...args} />
 Basic.args = {
-  title: 'title basic',
-  description: 'description basic'
+  title: '',
+  description: 'Aqui você vai desenvolver um site do zero para aprender react'
 }
 
 export const Default: Story = (args) => <Main {...args} />
